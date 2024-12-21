@@ -22,7 +22,8 @@ $tasks = loadTasks();
 
 function saveTasks(array $tasks) : void {
     file_put_contents(TASKS_FILE, json_encode($tasks, JSON_PRETTY_PRINT));
-}
+} 
+
 
 
 
